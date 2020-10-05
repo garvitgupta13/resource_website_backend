@@ -31,6 +31,7 @@ sudo mongod
 ```
 in another terminal again go to the resource_website_backend folder and just type command
 ```bash
+export iiit_jwtPrivateKey=<Private key value>
 node index.js
 ```
 to start your server at https://3001/api
